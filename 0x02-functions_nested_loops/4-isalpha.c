@@ -4,9 +4,6 @@
  * _isalpha - checks for alphabet character
  * @c: character to be checked
  *
- * Created - Sanctus-Peter
- * cc: 5th july, 2022
- *
  * Return: 1 if c is a letter, 0 otherwise
  */
 
