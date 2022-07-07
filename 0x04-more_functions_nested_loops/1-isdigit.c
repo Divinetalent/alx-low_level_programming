@@ -1,13 +1,15 @@
+#include <ctype.h>
 #include "main.h"
 
 /**
- * mul - takes 2 variable and multiply them
- * @var1: first variable
- * @var2: second variable
+ * _isdigit - check if a var is digit
+ * @var: variable to be checked
  *
- * Return: var1 * var2
+ * Return: 1 if var is digit, else 0
  */
-int mul(int var1, int var2)
+int _isdigit(int var)
 {
-	return (var1 * var2);
+	if (isdigit(var))
+		return (1);
+	return (0);
 }
