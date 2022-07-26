@@ -1,1 +1,1 @@
-helps understand C directories and files easily
+a function that creates an array of chars, and initializes it with a specific char
